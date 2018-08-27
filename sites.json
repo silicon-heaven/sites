@@ -9,7 +9,7 @@
     }
   },
   "cze": {
-    "_META": {"name":"Czech Republic", "name_cz": "Česká Republika"}
+    "_META": {"name":"Czech Republic", "name_cz": "Česká Republika"},
     "plz": {
       "tbus": {
         "switch": {},
