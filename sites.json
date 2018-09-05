@@ -44,6 +44,10 @@
     }
   },
   "pol": {
+    "olsz": {
+      "_meta": {"name":"Olsztyn"},
+      "depot": {}
+    },
     "lub": {
       "discon": {
         "1": {},
