@@ -1,10 +1,12 @@
 {
   "aus": {
     "mel": {
-      "sig": {},
-      "depot": {
-        "preston": {},
-        "malvern": {}
+      "sig": {
+        "depot": {
+          "preston": {},
+          "malvern": {}
+        },
+        "switch": {}
       }
     }
   },
@@ -18,14 +20,17 @@
         }
       },
       "tram": {
-        "sig": {},
-        "depot": {
-          "slovany": {}
+        "sig": {
+          "depot": {
+            "slovany": {}
+          }
         }
       }
     },
     "prg": {
-      "sig": {}
+      "sig": {
+        "switch": {}
+      }
     }
   },
   "ita": {
@@ -35,9 +40,11 @@
         "discon": {}
       },
       "tram": {
-        "sig": {},
-        "depot": {
-          "baggio": {}
+        "sig": {
+          "depot": {
+            "baggio": {}
+          },
+          "switch": {}
         },
         "discon": {}
       }
@@ -46,8 +53,29 @@
   "pol": {
     "ols": {
       "_meta": {"name":"Olsztyn"},
-      "depot": {},
-      "sig": {}
+      "sig": {
+        "depot": {
+          "zoneA": {"_meta": {"type":"SigBR"}},
+          "zoneB": {"_meta": {"type":"SigBR"}},
+          "zoneC": {"_meta": {"type":"SigBR"}}
+        },
+        "zone": {
+          "A1": {"_meta": {"type":"SigBR"}},
+          "A4": {"_meta": {"type":"SigBR"}},
+          "C1": {"_meta": {"type":"SigBR"}},
+          "D": {"_meta": {"type":"SigBR"}}
+        },
+        "switch": {
+          "001": {"_meta": {"type":"Tsc"}},
+          "002": {"_meta": {"type":"Tsc"}},
+          "003": {"_meta": {"type":"Tsc"}},
+          "004": {"_meta": {"type":"Tsc"}},
+          "005": {"_meta": {"type":"Tsc"}},
+          "006": {"_meta": {"type":"Tsc"}},
+          "007": {"_meta": {"type":"Tsc"}}
+        }
+      },
+      "discon": {}
     },
     "lub": {
       "discon": {
@@ -117,7 +145,7 @@
       "cze": {
         "prg": {
           "sig": {
-            "eov": {
+            "switch": {
               "9901": {"_meta": {"type":"Tsc"}},
               "9902": {"_meta": {"type":"TscTandem"}}
             }
