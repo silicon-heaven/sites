@@ -44,22 +44,47 @@
     }
   },
   "pol": {
-    "olsz": {
+    "ols": {
       "_meta": {"name":"Olsztyn"},
       "depot": {}
     },
     "lub": {
       "discon": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {},
-        "7": {},
-        "8": {},
-        "9": {},
-        "10": {}
+        "1101": {"_meta": {"type":"Discon"}},
+        "1201": {"_meta": {"type":"Discon"}},
+        "1202": {"_meta": {"type":"Discon"}},
+        "1203": {"_meta": {"type":"Discon"}},
+        "0101": {"_meta": {"type":"Discon"}},
+        "0102": {"_meta": {"type":"Discon"}},
+        "0106": {"_meta": {"type":"Discon"}},
+        "0110": {"_meta": {"type":"Discon"}},
+        "0204": {"_meta": {"type":"Discon"}},
+        "0208": {"_meta": {"type":"Discon"}},
+        "0308": {"_meta": {"type":"Discon"}},
+        "0402": {"_meta": {"type":"Discon"}},
+        "0501": {"_meta": {"type":"Discon"}},
+        "0502": {"_meta": {"type":"Discon"}},
+        "0503": {"_meta": {"type":"Discon"}},
+        "0601": {"_meta": {"type":"Discon"}},
+        "0602": {"_meta": {"type":"Discon"}},
+        "0603": {"_meta": {"type":"Discon"}},
+        "0604": {"_meta": {"type":"Discon"}},
+        "0701": {"_meta": {"type":"Discon"}},
+        "0702": {"_meta": {"type":"Discon"}},
+        "0801": {"_meta": {"type":"Discon"}},
+        "0802": {"_meta": {"type":"Discon"}},
+        "0803": {"_meta": {"type":"Discon"}},
+        "0804": {"_meta": {"type":"Discon"}},
+        "0902": {"_meta": {"type":"Discon"}},
+        "1001": {"_meta": {"type":"Discon"}},
+        "1002": {"_meta": {"type":"Discon"}},
+        "1003": {"_meta": {"type":"Discon"}},
+        "1004": {"_meta": {"type":"Discon"}},
+        "1005": {"_meta": {"type":"Discon"}},
+        "1204": {"_meta": {"type":"Discon"}},
+        "1301": {"_meta": {"type":"Discon"}},
+        "1302": {"_meta": {"type":"Discon"}},
+        "1303": {"_meta": {"type":"Discon"}}
       }
     }
   },
@@ -67,16 +92,16 @@
     "pol": {
       "lub": {
         "discon": {
-          "1001": {},
-          "1002": {},
-          "1003": {},
-          "1004": {},
-          "1005": {},
-          "1006": {},
-          "1007": {},
-          "1008": {},
-          "1009": {},
-          "1010": {}
+          "1001": {"_meta": {"type":"Discon"}},
+          "1002": {"_meta": {"type":"Discon"}},
+          "1003": {"_meta": {"type":"Discon"}},
+          "1004": {"_meta": {"type":"Discon"}},
+          "1005": {"_meta": {"type":"Discon"}},
+          "1006": {"_meta": {"type":"Discon"}},
+          "1007": {"_meta": {"type":"Discon"}},
+          "1008": {"_meta": {"type":"Discon"}},
+          "1009": {"_meta": {"type":"Discon"}},
+          "1010": {"_meta": {"type":"Discon"}}
         }
       },
       "fra": {
@@ -100,7 +125,7 @@
                 "pme01": {},
                 "vet01": {
                   "_meta": {
-                    "type": "vetra"
+                    "type": "Vetra"
                   }
                 }
               },
@@ -116,7 +141,7 @@
                 "pme02": {},
                 "twc01": {
                   "_meta": {
-                    "type": "twc"
+                    "type": "Twc"
                   }
                 },
                 "twc02": {},
