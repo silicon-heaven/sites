@@ -46,13 +46,14 @@
   "pol": {
     "ols": {
       "_meta": {"name":"Olsztyn"},
-      "depot": {}
+      "depot": {},
+      "sig": {}
     },
     "lub": {
       "discon": {
-        "1101": {"_meta": {"type":"Discon"}},
-        "1201": {"_meta": {"type":"Discon"}},
-        "1202": {"_meta": {"type":"Discon"}},
+        "1101": {"_meta": {"type":"Discon", "name":"Zajezdnia - Muzeum"}},
+        "1201": {"_meta": {"type":"Discon", "name":"Zamek - Unii Lubelskiej"}},
+        "1202": {"_meta": {"type":"Discon", "name":"Unicka - Zamek"}},
         "1203": {"_meta": {"type":"Discon"}},
         "0101": {"_meta": {"type":"Discon"}},
         "0102": {"_meta": {"type":"Discon"}},
@@ -92,61 +93,33 @@
     "pol": {
       "lub": {
         "discon": {
-          "1001": {"_meta": {"type":"Discon"}},
-          "1002": {"_meta": {"type":"Discon"}},
-          "1003": {"_meta": {"type":"Discon"}},
-          "1004": {"_meta": {"type":"Discon"}},
-          "1005": {"_meta": {"type":"Discon"}},
-          "1006": {"_meta": {"type":"Discon"}},
-          "1007": {"_meta": {"type":"Discon"}},
-          "1008": {"_meta": {"type":"Discon"}},
-          "1009": {"_meta": {"type":"Discon"}},
-          "1010": {"_meta": {"type":"Discon"}}
+          "9901": {"_meta": {"type":"Discon"}},
+          "9902": {"_meta": {"type":"Discon"}},
+          "9903": {"_meta": {"type":"Discon"}},
+          "9904": {"_meta": {"type":"Discon"}},
+          "9905": {"_meta": {"type":"Discon"}},
+          "9906": {"_meta": {"type":"Discon"}},
+          "9907": {"_meta": {"type":"Discon"}},
+          "9908": {"_meta": {"type":"Discon"}},
+          "9909": {"_meta": {"type":"Discon"}},
+          "9910": {"_meta": {"type":"Discon"}}
         }
       },
       "fra": {
         "lys": {
           "tbus": {
             "switch": {
-              "1001": {}
+              "9901": {"_meta": {"type":"TbusSwitch"}}
             }
           }
         }
       },
       "cze": {
         "prg": {
-          "sig":
-            {
-              "1001": {
-                "_meta": {},
-                "tsc": {},
-                "tc01": {},
-                "tc02": {},
-                "pme01": {},
-                "vet01": {
-                  "_meta": {
-                    "type": "Vetra"
-                  }
-                }
-              },
-              "1002": {
-                "_meta": {},
-                "tsc": {},
-                "tc01": {},
-                "tc02": {},
-                "tc03": {},
-                "tc04": {},
-                "tc05": {},
-                "pme01": {},
-                "pme02": {},
-                "twc01": {
-                  "_meta": {
-                    "type": "Twc"
-                  }
-                },
-                "twc02": {},
-                "ppi01": {},
-                "ppi02": {}
+          "sig": {
+            "eov": {
+              "9901": {"_meta": {"type":"Tsc"}},
+              "9902": {"_meta": {"type":"TscTandem"}}
             }
           }
         }
