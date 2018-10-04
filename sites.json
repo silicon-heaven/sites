@@ -142,23 +142,23 @@
           "19": {"_meta": {"type":"Discon"}},
           "20": {"_meta": {"type":"Discon"}}
         }
-      },
-      "fra": {
-        "lys": {
-          "tbus": {
-            "switch": {
-              "9901": {"_meta": {"type":"TbusSwitch"}}
-            }
+      }
+    },
+    "fra": {
+      "lys": {
+        "tbus": {
+          "switch": {
+            "9901": {"_meta": {"type":"TbusSwitch"}}
           }
         }
-      },
-      "cze": {
-        "prg": {
-          "sig": {
-            "switch": {
-              "9901": {"_meta": {"type":"Tsc"}},
-              "9902": {"_meta": {"type":"TscTandem"}}
-            }
+      }
+    },
+    "cze": {
+      "prg": {
+        "sig": {
+          "switch": {
+            "9901": {"_meta": {"type":"Tsc"}},
+            "9902": {"_meta": {"type":"TscTandem"}}
           }
         }
       }
