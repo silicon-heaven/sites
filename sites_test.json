@@ -1,0 +1,169 @@
+{
+  "shv": {
+    "aus": {
+      "mel": {
+        "sig": {
+          "depot": {
+            "preston": {},
+            "malvern": {}
+          },
+          "switch": {}
+        }
+      }
+    },
+    "cze": {
+      "_meta": {"name":"Czech Republic", "name_cz": "Česká Republika"},
+      "plz": {
+        "tbus": {
+          "switch": {},
+          "depot": {
+            "karlov": {}
+          }
+        },
+        "tram": {
+          "sig": {
+            "depot": {
+              "slovany": {}
+            }
+          }
+        }
+      },
+      "prg": {
+        "sig": {
+          "switch": {}
+        }
+      }
+    },
+    "ita": {
+      "mil": {
+        "tbus": {
+          "switch": {},
+          "discon": {}
+        },
+        "tram": {
+          "sig": {
+            "depot": {
+              "baggio": {}
+            },
+            "switch": {}
+          },
+          "discon": {}
+        }
+      }
+    },
+    "pol": {
+      "ols": {
+        "_meta": {"name":"Olsztyn"},
+        "sig": {
+          "depot": {
+            "zoneA": {"_meta": {"type":"SigBR"}},
+            "zoneB": {"_meta": {"type":"SigBR"}},
+            "zoneC": {"_meta": {"type":"SigBR"}}
+          },
+          "zone": {
+            "A1": {"_meta": {"type":"SigBR"}},
+            "A4": {"_meta": {"type":"SigBR"}},
+            "C1": {"_meta": {"type":"SigBR"}},
+            "D": {"_meta": {"type":"SigBR"}}
+          },
+          "switch": {
+            "001": {"_meta": {"type":"Tsc"}},
+            "002": {"_meta": {"type":"Tsc"}},
+            "003": {"_meta": {"type":"Tsc"}},
+            "004": {"_meta": {"type":"Tsc"}},
+            "005": {"_meta": {"type":"Tsc"}},
+            "006": {"_meta": {"type":"Tsc"}},
+            "007": {"_meta": {"type":"Tsc"}}
+          }
+        },
+        "discon": {}
+      },
+      "lub": {
+        "discon": {
+          "1101": {"_meta": {"type":"Discon", "name":"1101 Zajezdnia - Muzeum"}},
+          "1201": {"_meta": {"type":"Discon", "name":"1201 Zamek - Unii Lubelskiej"}},
+          "1202": {"_meta": {"type":"Discon", "name":"1202 Unicka - Zamek"}},
+          "1203": {"_meta": {"type":"Discon"}},
+          "0101": {"_meta": {"type":"Discon"}},
+          "0102": {"_meta": {"type":"Discon"}},
+          "0106": {"_meta": {"type":"Discon"}},
+          "0110": {"_meta": {"type":"Discon"}},
+          "0204": {"_meta": {"type":"Discon"}},
+          "0208": {"_meta": {"type":"Discon"}},
+          "0308": {"_meta": {"type":"Discon"}},
+          "0402": {"_meta": {"type":"Discon"}},
+          "0501": {"_meta": {"type":"Discon"}},
+          "0502": {"_meta": {"type":"Discon"}},
+          "0503": {"_meta": {"type":"Discon"}},
+          "0601": {"_meta": {"type":"Discon"}},
+          "0602": {"_meta": {"type":"Discon"}},
+          "0603": {"_meta": {"type":"Discon"}},
+          "0604": {"_meta": {"type":"Discon"}},
+          "0701": {"_meta": {"type":"Discon"}},
+          "0702": {"_meta": {"type":"Discon"}},
+          "0801": {"_meta": {"type":"Discon"}},
+          "0802": {"_meta": {"type":"Discon"}},
+          "0803": {"_meta": {"type":"Discon"}},
+          "0804": {"_meta": {"type":"Discon"}},
+          "0902": {"_meta": {"type":"Discon"}},
+          "1001": {"_meta": {"type":"Discon"}},
+          "1002": {"_meta": {"type":"Discon"}},
+          "1003": {"_meta": {"type":"Discon"}},
+          "1004": {"_meta": {"type":"Discon"}},
+          "1005": {"_meta": {"type":"Discon"}},
+          "1204": {"_meta": {"type":"Discon"}},
+          "1301": {"_meta": {"type":"Discon"}},
+          "1302": {"_meta": {"type":"Discon"}},
+          "1303": {"_meta": {"type":"Discon"}}
+        }
+      }
+    }
+  },
+  "test": {
+    "cze": {
+      "prg": {
+        "sig": {
+          "switch": {
+            "9901": {"_meta": {"type":"Tsc"}},
+            "9902": {"_meta": {"type":"TscTandem"}}
+          }
+        }
+      }
+    },
+    "fra": {
+      "lys": {
+        "tbus": {
+          "switch": {
+            "9901": {"_meta": {"type":"TbusSwitch"}}
+          }
+        }
+      }
+    },
+    "pol": {
+      "lub": {
+        "discon": {
+          "1": {"_meta": {"type":"Discon"}},
+          "2": {"_meta": {"type":"Discon"}},
+          "3": {"_meta": {"type":"Discon"}},
+          "4": {"_meta": {"type":"Discon"}},
+          "5": {"_meta": {"type":"Discon"}},
+          "6": {"_meta": {"type":"Discon"}},
+          "7": {"_meta": {"type":"Discon"}},
+          "8": {"_meta": {"type":"Discon"}},
+          "9": {"_meta": {"type":"Discon"}},
+          "10": {"_meta": {"type":"Discon"}},
+          "11": {"_meta": {"type":"Discon"}},
+          "12": {"_meta": {"type":"Discon"}},
+          "13": {"_meta": {"type":"Discon"}},
+          "14": {"_meta": {"type":"Discon"}},
+          "15": {"_meta": {"type":"Discon"}},
+          "16": {"_meta": {"type":"Discon"}},
+          "17": {"_meta": {"type":"Discon"}},
+          "18": {"_meta": {"type":"Discon"}},
+          "19": {"_meta": {"type":"Discon"}},
+          "20": {"_meta": {"type":"Discon"}}
+        }
+      }
+    }
+  }
+}
