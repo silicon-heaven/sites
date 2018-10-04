@@ -80,7 +80,7 @@
       },
       "lub": {
         "discon": {
-          "1101": {"_meta": {"type":"Discon", "name":" Zajezdnia - Muzeum"}},
+          "1101": {"_meta": {"type":"Discon", "name":"1333 Zajezdnia - Muzeum"}},
           "1201": {"_meta": {"type":"Discon", "name":" Zamek - Unii Lubelskiej"}},
           "1202": {"_meta": {"type":"Discon", "name":" Unicka - Zamek"}},
           "1203": {"_meta": {"type":"Discon"}},
