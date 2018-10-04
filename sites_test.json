@@ -80,9 +80,9 @@
       },
       "lub": {
         "discon": {
-          "1101": {"_meta": {"type":"Discon", "name":"1101 Zajezdnia - Muzeum"}},
-          "1201": {"_meta": {"type":"Discon", "name":"1201 Zamek - Unii Lubelskiej"}},
-          "1202": {"_meta": {"type":"Discon", "name":"1202 Unicka - Zamek"}},
+          "1101": {"_meta": {"type":"Discon", "name":" Zajezdnia - Muzeum"}},
+          "1201": {"_meta": {"type":"Discon", "name":" Zamek - Unii Lubelskiej"}},
+          "1202": {"_meta": {"type":"Discon", "name":" Unicka - Zamek"}},
           "1203": {"_meta": {"type":"Discon"}},
           "0101": {"_meta": {"type":"Discon"}},
           "0102": {"_meta": {"type":"Discon"}},
