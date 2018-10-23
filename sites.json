@@ -130,6 +130,25 @@
         }
       }
     },
+    "bel": {
+      "bru": {
+        "sig": {
+          "zone": {
+            "SIG001TEST": {"_meta": {"type":"SigSTIB"}}
+          },
+          "pm": {
+            "PM001TEST": {"_meta": {"type":"Pme"}},
+            "PM002TEST": {"_meta": {"type":"Pme"}}
+          },
+          "tc": {
+            "BRC001TEST": {"_meta": {"type":"Tc"}}
+          },
+          "zenitel": {
+            "ZEN001TEST": {"_meta": {"type":"TwcZenitel"}}
+          }
+        }
+      }
+    },
     "fra": {
       "lys": {
         "tbus": {
