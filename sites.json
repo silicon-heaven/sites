@@ -153,7 +153,14 @@
       "lys": {
         "tbus": {
           "switch": {
-            "9901": {"_meta": {"type":"TbusSwitch"}}
+            "9901": {
+              "_meta": {
+                "type":"TbusSwitch",
+                "variablesVisibility": {
+                  "errorCommunicationTransceiver1": true
+                }
+              }
+            }
           }
         }
       }
