@@ -180,7 +180,14 @@
           "17": {"_meta": {"type":"Discon"}},
           "18": {"_meta": {"type":"Discon"}},
           "19": {"_meta": {"type":"Discon"}},
-          "20": {"_meta": {"type":"Discon"}}
+          "20": {"_meta": {"type":"Discon"}},
+          "21": {"_meta": {"type":"Discon"}},
+          "22": {"_meta": {"type":"Discon"}},
+          "23": {"_meta": {"type":"Discon"}},
+          "24": {"_meta": {"type":"Discon"}},
+          "25": {"_meta": {"type":"Discon"}},
+          "26": {"_meta": {"type":"Discon"}},
+          "27": {"_meta": {"type":"Discon"}}
         }
       }
     }
