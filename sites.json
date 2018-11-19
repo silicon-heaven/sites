@@ -156,9 +156,12 @@
             "9901": {
               "_meta": {
                 "type":"TbusSwitch",
-                "variablesVisibility": {
-                  "errorCommunicationTransceiver1": true
-                }
+                "variablesVisibility": {}
+              }
+            },
+            "9902": {
+              "_meta": {
+                "type":"TbusSwitch"
               }
             }
           }
