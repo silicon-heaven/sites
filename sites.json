@@ -2,11 +2,12 @@
   "shv": {
     "aus": {
       "mel": {
-        "sig": {
+        "tram": {
           "depot": {
             "preston": {},
             "malvern": {}
           },
+          "sig": {},
           "switch": {}
         }
       }
@@ -15,21 +16,25 @@
       "_meta": {"name":"Czech Republic", "name_cz": "Česká Republika"},
       "plz": {
         "tbus": {
-          "switch": {},
           "depot": {
             "karlov": {}
-          }
+          },
+          "switch": {}
         },
         "tram": {
-          "sig": {
-            "depot": {
-              "slovany": {}
-            }
+          "depot": {
+            "slovany": {}
+          },
+          "sig": {},
+          "switch": {},
+          "aux": {
+            "andi-karlovarska": {"_meta": {"type":"PointMachineMonitor"}},
+            "anca-slovany": {"_meta": {"type":"PointMachineMonitor"}}
           }
         }
       },
       "prg": {
-        "sig": {
+        "tram": {
           "switch": {}
         }
       }
@@ -40,27 +45,19 @@
           "switch": {},
           "discon": {}
         },
-        "tram": {
-          "sig": {
-            "depot": {
-              "baggio": {}
-            },
-            "switch": {}
-          },
-          "discon": {}
-        }
+        "tram": {}
       }
     },
     "pol": {
       "ols": {
         "_meta": {"name":"Olsztyn"},
-        "sig": {
+        "tram": {
           "depot": {
             "zoneA": {"_meta": {"type":"SigBR"}},
             "zoneB": {"_meta": {"type":"SigBR"}},
             "zoneC": {"_meta": {"type":"SigBR"}}
           },
-          "zone": {
+          "sig": {
             "A1": {"_meta": {"type":"SigBR"}},
             "A4": {"_meta": {"type":"SigBR"}},
             "C1": {"_meta": {"type":"SigBR"}},
@@ -75,46 +72,47 @@
             "006": {"_meta": {"type":"Tsc"}},
             "007": {"_meta": {"type":"Tsc"}}
           }
-        },
-        "discon": {}
+        }
       },
       "lub": {
-        "discon": {
-          "1101": {"_meta": {"type":"Discon", "name":"1101 Zajezdnia - Muzeum"}},
-          "1201": {"_meta": {"type":"Discon", "name":"1201 Zamek - Unii Lubelskiej"}},
-          "1202": {"_meta": {"type":"Discon", "name":"1202 Unicka - Zamek"}},
-          "1203": {"_meta": {"type":"Discon"}},
-          "0101": {"_meta": {"type":"Discon"}},
-          "0102": {"_meta": {"type":"Discon"}},
-          "0106": {"_meta": {"type":"Discon"}},
-          "0110": {"_meta": {"type":"Discon"}},
-          "0204": {"_meta": {"type":"Discon"}},
-          "0208": {"_meta": {"type":"Discon"}},
-          "0308": {"_meta": {"type":"Discon"}},
-          "0402": {"_meta": {"type":"Discon"}},
-          "0501": {"_meta": {"type":"Discon"}},
-          "0502": {"_meta": {"type":"Discon"}},
-          "0503": {"_meta": {"type":"Discon"}},
-          "0601": {"_meta": {"type":"Discon"}},
-          "0602": {"_meta": {"type":"Discon"}},
-          "0603": {"_meta": {"type":"Discon"}},
-          "0604": {"_meta": {"type":"Discon"}},
-          "0701": {"_meta": {"type":"Discon"}},
-          "0702": {"_meta": {"type":"Discon"}},
-          "0801": {"_meta": {"type":"Discon"}},
-          "0802": {"_meta": {"type":"Discon"}},
-          "0803": {"_meta": {"type":"Discon"}},
-          "0804": {"_meta": {"type":"Discon"}},
-          "0902": {"_meta": {"type":"Discon"}},
-          "1001": {"_meta": {"type":"Discon"}},
-          "1002": {"_meta": {"type":"Discon"}},
-          "1003": {"_meta": {"type":"Discon"}},
-          "1004": {"_meta": {"type":"Discon"}},
-          "1005": {"_meta": {"type":"Discon"}},
-          "1204": {"_meta": {"type":"Discon"}},
-          "1301": {"_meta": {"type":"Discon"}},
-          "1302": {"_meta": {"type":"Discon"}},
-          "1303": {"_meta": {"type":"Discon"}}
+        "tbus": {
+          "discon": {
+            "1101": {"_meta": {"type":"Discon", "name":"1101 Zajezdnia - Muzeum"}},
+            "1201": {"_meta": {"type":"Discon", "name":"1201 Zamek - Unii Lubelskiej"}},
+            "1202": {"_meta": {"type":"Discon", "name":"1202 Unicka - Zamek"}},
+            "1203": {"_meta": {"type":"Discon"}},
+            "0101": {"_meta": {"type":"Discon"}},
+            "0102": {"_meta": {"type":"Discon"}},
+            "0106": {"_meta": {"type":"Discon"}},
+            "0110": {"_meta": {"type":"Discon"}},
+            "0204": {"_meta": {"type":"Discon"}},
+            "0208": {"_meta": {"type":"Discon"}},
+            "0308": {"_meta": {"type":"Discon"}},
+            "0402": {"_meta": {"type":"Discon"}},
+            "0501": {"_meta": {"type":"Discon"}},
+            "0502": {"_meta": {"type":"Discon"}},
+            "0503": {"_meta": {"type":"Discon"}},
+            "0601": {"_meta": {"type":"Discon"}},
+            "0602": {"_meta": {"type":"Discon"}},
+            "0603": {"_meta": {"type":"Discon"}},
+            "0604": {"_meta": {"type":"Discon"}},
+            "0701": {"_meta": {"type":"Discon"}},
+            "0702": {"_meta": {"type":"Discon"}},
+            "0801": {"_meta": {"type":"Discon"}},
+            "0802": {"_meta": {"type":"Discon"}},
+            "0803": {"_meta": {"type":"Discon"}},
+            "0804": {"_meta": {"type":"Discon"}},
+            "0902": {"_meta": {"type":"Discon"}},
+            "1001": {"_meta": {"type":"Discon"}},
+            "1002": {"_meta": {"type":"Discon"}},
+            "1003": {"_meta": {"type":"Discon"}},
+            "1004": {"_meta": {"type":"Discon"}},
+            "1005": {"_meta": {"type":"Discon"}},
+            "1204": {"_meta": {"type":"Discon"}},
+            "1301": {"_meta": {"type":"Discon"}},
+            "1302": {"_meta": {"type":"Discon"}},
+            "1303": {"_meta": {"type":"Discon"}}
+          }
         }
       }
     }
